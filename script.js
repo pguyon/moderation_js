@@ -11,7 +11,6 @@ submitButton.addEventListener("click", (e) => {
   containsMessage.textContent = messageValue;
   const messageTest = containsMessage.textContent;
   const newMessage = replace(messageTest, badWords);
-  containsMessage.textContent = "";
   containsMessage.textContent = newMessage;
 });
 
