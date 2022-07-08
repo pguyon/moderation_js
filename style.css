@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  height: 100px;
+  justify-content: space-evenly;
+}
+
+#message {
+  padding: 5px;
+}
+
+#submit__message {
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+#contains {
+  height: 100px;
+  width: 300px;
+  border: 1px solid black;
+}
